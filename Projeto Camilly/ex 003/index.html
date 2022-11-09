@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados com JS</title>
+    <style>
+        /*aqui alterei a fonte e o tamanho*/
+        body { font: 12pt Arial; }
+        /*aqui alterei a cor do fundo e coloquei a função de sombra*/
+        button { font-size: 12pt; padding: 30px; color: rgb(230, 230, 233); background: rgb(33, 0, 39);}
+        /*aqui no botão, aumentei o preenchimento, mudei a cor, deixei arredondado,
+         dei cor as bordas, e aumentei as bordas*/
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com dados v1.0</h1>
+    <button onclick="inicio()">Clique para começar</button>
+    <script>
+        function inicio() {
+            let nome = window.prompt('Qual o seu nome?') 
+            let nome2 = window.prompt('Qual seu filme favorito? ') 
+            //aqui adicionei uma pergunta no pop-out, que pergunta qual é o filme favorito da pessoa
+
+            window.alert(`parabéns ${nome}! você tem um bom gosto! O  ${nome2} é um bom filme! `)
+            //aqui mudei a frase final.
+        }
+    </script>
+</body>
+</htm
